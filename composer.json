@@ -1,0 +1,26 @@
+{
+    "name": "fuadhs88/possatpam",
+    "description": "description...",
+    "type": "library",
+    "keywords": ["Pos Satpam", "extension"],
+    "homepage": "https://github.com/fuadhs88/possatpam",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "fuadhs",
+            "email": "fuadhs@igg.co.id"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "dcat/laravel-admin": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dcat\\Admin\\Extension\\PosSatpam\\": "src/"
+        },
+         "files": [
+            "src/bootstrap.php"
+        ]
+    }
+}
